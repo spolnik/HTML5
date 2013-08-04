@@ -15,10 +15,22 @@
                 <input type="text" id="new-task-name" title="Enter a task name" placeholder="Enter a task name"/>
             </div>
             <ul id="task-list">
-
             </ul>
         </div>
         <footer></footer>
+    </div>
+    <div id="templates" class="hidden">
+        <ul id="task-template">
+            <li class="task">
+                <div class="tools">
+                    <button class="delete" title="Delete">X</button>
+                    <button class="move-up" title="Up">^</button>
+                    <button class="move-down" title="Down">v</button>
+                </div>
+                <span class="task-name"></span>
+                <input type="text" class="task-name hidden"/>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
