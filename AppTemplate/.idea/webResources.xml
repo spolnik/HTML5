@@ -6,6 +6,7 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/../Start/AppTemplate" />
+            <path value="file://$PROJECT_DIR$/../Start/TaskAtHand" />
           </resourceRoots>
         </entryData>
       </entry>

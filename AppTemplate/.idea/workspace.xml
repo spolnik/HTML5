@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/AppTemplate/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/AppTemplate/app.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/AppTemplate/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/lib/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webResources.xml" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AppTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,6 +15,8 @@
     <file path="/app.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375608780794" ignored="false" />
     <file path="/app.css" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375608993889" ignored="false" />
     <file path="/app.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375614764664" ignored="false" />
+    <file path="/taskAtHand.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375615499746" ignored="false" />
+    <file path="/taskAtHand.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375632599710" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,28 +36,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Start/AppTemplate/app.html">
+      <file leaf-file-name="taskAtHand.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="294" selection-end="294" vertical-scroll-proportion="0.23803967">
+            <state line="17" column="16" selection-start="557" selection-end="557" vertical-scroll-proportion="-11.115385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Start/AppTemplate/app.js">
+      <file leaf-file-name="taskAtHand.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Start/AppTemplate/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="90" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+            <state line="18" column="16" selection-start="416" selection-end="416" vertical-scroll-proportion="0.34654588">
               <folding />
             </state>
           </provider>
@@ -81,6 +75,8 @@
         <option value="$PROJECT_DIR$/../Start/AppTemplate/app.css" />
         <option value="$PROJECT_DIR$/../Start/AppTemplate/app.js" />
         <option value="$PROJECT_DIR$/../Start/AppTemplate/app.html" />
+        <option value="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" />
+        <option value="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" />
       </list>
     </option>
   </component>
@@ -134,7 +130,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AppTemplate" />
+              <option name="myItemId" value="TaskAtHand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Start" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,6 +156,11 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacek\Documents\GitHub\HTML5\Start" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -278,23 +289,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Start/AppTemplate/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="294" selection-end="294" vertical-scroll-proportion="0.23803967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Start/AppTemplate/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="90" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+        <state line="19" column="90" selection-start="241" selection-end="241" vertical-scroll-proportion="0.3657984">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Start/AppTemplate/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="10" column="34" selection-start="206" selection-end="206" vertical-scroll-proportion="0.19252548">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Start/AppTemplate/app.html">
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="294" selection-end="294" vertical-scroll-proportion="0.23803967">
+        <state line="17" column="16" selection-start="557" selection-end="557" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/lib/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18161" selection-start="50288" selection-end="50296" vertical-scroll-proportion="0.040236685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="416" selection-end="416" vertical-scroll-proportion="0.34654588">
           <folding />
         </state>
       </provider>
