@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/appStorage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AppTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,9 +15,12 @@
     <file path="/app.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375608780794" ignored="false" />
     <file path="/app.css" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375608993889" ignored="false" />
     <file path="/app.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375614764664" ignored="false" />
-    <file path="/taskAtHand.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375635355850" ignored="false" />
-    <file path="/taskAtHand.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375635856226" ignored="false" />
-    <file path="/taskAtHand.css" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375634039084" ignored="false" />
+    <file path="/taskAtHand.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639660397" ignored="false" />
+    <file path="/taskAtHand.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375640665061" ignored="false" />
+    <file path="/taskAtHand.css" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375644118181" ignored="false" />
+    <file path="/appStorage.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639488894" ignored="false" />
+    <file path="/a.dummy" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639893925" ignored="false" />
+    <file path="/fragment.js2" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639995262" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +43,34 @@
       <file leaf-file-name="taskAtHand.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="61" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-19.615385">
+            <state line="28" column="68" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-18.307692">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taskAtHand.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="taskAtHand.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="99" selection-start="532" selection-end="532" vertical-scroll-proportion="0.42355606">
+            <state line="3" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taskAtHand.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="appStorage.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/appStorage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="43" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taskAtHand.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="67" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+            <state line="27" column="26" selection-start="458" selection-end="462" vertical-scroll-proportion="0.4053076">
               <folding />
             </state>
           </provider>
@@ -82,17 +97,16 @@
         <option value="$PROJECT_DIR$/../Start/AppTemplate/app.css" />
         <option value="$PROJECT_DIR$/../Start/AppTemplate/app.js" />
         <option value="$PROJECT_DIR$/../Start/AppTemplate/app.html" />
-        <option value="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" />
-        <option value="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" />
+        <option value="$PROJECT_DIR$/../Start/TaskAtHand/appStorage.js" />
         <option value="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" />
+        <option value="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" />
+        <option value="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1634" />
-    <option name="height" value="1066" />
+    <option name="width" value="809" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -169,6 +183,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacek\Documents\GitHub\HTML5\Start\TaskAtHand\images" />
       <recent name="C:\Users\Jacek\Documents\GitHub\HTML5\Start" />
     </key>
   </component>
@@ -233,13 +248,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1634" height="1066" extended-state="6" />
+    <frame x="0" y="0" width="809" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24952978" sideWeight="0.6182618" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32207793" sideWeight="0.6182618" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3817382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -247,7 +263,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -316,7 +331,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js</url>
-          <line>56</line>
+          <line>90</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -351,23 +366,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css">
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="67" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+        <state line="3" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/appStorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="43" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/images/icons.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="61" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-19.615385">
+        <state line="28" column="68" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-18.307692">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="99" selection-start="532" selection-end="532" vertical-scroll-proportion="0.42355606">
+        <state line="27" column="26" selection-start="458" selection-end="462" vertical-scroll-proportion="0.4053076">
           <folding />
         </state>
       </provider>

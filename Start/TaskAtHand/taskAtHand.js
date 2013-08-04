@@ -1,7 +1,25 @@
 "use strict";
 
 function TaskAtHandApp() {
-    var version = "v1.2";
+    var version = "v2.1",
+        appStorage = new AppStorage('taskAtHand'),
+        taskListKey = 'taskList';
+
+    function saveTaskList() {
+        var tasks = [];
+        $('#task-list .task span.task-name').each( function() {
+            tasks.push($(this).text());
+        });
+        appStorage.setValue(taskListKey, tasks);
+    }
+
+    function loadTaskList() {
+        var tasks = appStorage.getValue(taskListKey);
+        if (tasks) {
+            for (var i in tasks)
+                addTaskElement(tasks[i]);
+        }
+    }
 
     function setStatus(message) {
         $('#app>footer').text(message);
@@ -21,6 +39,20 @@ function TaskAtHandApp() {
         if ($input.val())
             $span.text($input.val());
         $span.show();
+        saveTaskList();
+    }
+
+    function removeTask($task) {
+        $task.remove();
+        saveTaskList();
+    }
+
+    function moveTask($task, moveUp) {
+        if (moveUp)
+            $task.insertBefore($task.prev());
+        else
+            $task.insertAfter($task.next());
+        saveTaskList();
     }
 
     function addTaskElement(taskName) {
@@ -30,15 +62,15 @@ function TaskAtHandApp() {
         $('#task-list').append($task);
 
         $('button.delete', $task).click(function() {
-            $task.remove();
+            removeTask($task);
         });
 
         $('button.move-up', $task).click(function() {
-           $task.insertBefore($task.prev());
+            moveTask($task, true);
         });
 
         $('button.move-down', $task).click(function() {
-           $task.insertAfter($task.next());
+            moveTask($task, false);
         });
 
         $('span.task-name', $task).click(function() {
@@ -59,6 +91,7 @@ function TaskAtHandApp() {
             addTaskElement(taskName);
             // Reset the text field
             $('#new-task-name').val('').focus();
+            saveTaskList();
         }
     }
 
@@ -72,6 +105,7 @@ function TaskAtHandApp() {
         }).focus();
 
         $('#app>header').append(' ' + version);
+        loadTaskList();
         setStatus("ready");
     }
 }

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="taskAtHand.css"/>
     <script src="lib/jquery-1.10.2.min.js"></script>
     <script src="taskAtHand.js"></script>
+    <script src="appStorage.js"></script>
 </head>
 <body>
     <div id="app">
@@ -23,9 +24,9 @@
         <ul id="task-template">
             <li class="task">
                 <div class="tools">
-                    <button class="delete" title="Delete">X</button>
                     <button class="move-up" title="Up">^</button>
                     <button class="move-down" title="Down">v</button>
+                    <button class="delete" title="Delete">X</button>
                 </div>
                 <span class="task-name"></span>
                 <input type="text" class="task-name hidden"/>
