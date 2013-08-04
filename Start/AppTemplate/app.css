@@ -1,0 +1,48 @@
+body {
+    font: 1em Verdana, Geneva, sans-serif;
+    padding: 0;
+    margin: 5px;
+    color: black;
+    background-color: WHITESMOKE;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#app {
+    margin: 4px;
+    background-color: #bbc;
+}
+
+#app>header {
+    padding: 0 0.5em;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #2C3747;
+    border-bottom-color: #444;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 3px 0px;
+}
+
+#app>footer {
+    padding: 0.25em;
+    color: #fff;
+    background-color: #2C3747;
+    border-bottom-color: #999;
+    border-top-color: #444;
+    box-shadow: rgba(0, 0, 0, 0.298039) 1px 2px 3px 1px;
+    display: block;
+}
+
+#main {
+    margin: 1em;
+}
