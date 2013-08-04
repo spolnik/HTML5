@@ -19,11 +19,25 @@ button {
     display: none;
 }
 
+#toolbar
+{
+    padding: 0.25em;
+    font-size: 0.8em;
+    color: WhiteSmoke;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 /****************************************************************************/
 /* App */
 /****************************************************************************/
 
 #app {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
     margin: 4px;
     background-color: #bbc;
     background: -webkit-linear-gradient(top, #bbc, #558);
@@ -41,6 +55,8 @@ button {
 }
 
 #app>footer {
+    position: absolute;
+    bottom: 0;
     padding: 0.25em;
     color: WhiteSmoke;
     background-color: #006;
@@ -70,20 +86,31 @@ button {
     padding: 0;
 }
 
-#task-name {
-    font-size: 1em;
-    display: block;
-    width: 98%;
-}
-
 #task-list .task {
     position: relative;
     list-style: none;
-    padding: 0.25em;
+    padding: 0.5em;
     margin: 0.25em;
     background-color: beige;
     border-radius: 4px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+#task-list .task:hover
+{
+    background-color: white;
+}
+
+#task-list .task.selected {
+    padding: 0.6em 0.5em;
+    border: 2px solid orange;
+    border-radius: 6px;
+    background-color: #ffffff;
 }
 
 #task-list .task input.task-name
@@ -98,6 +125,18 @@ button {
     right: 0.25em;
     border: 1px solid black;
     border-radius: 2px;
+    opacity: 0;
+    padding: 1px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+#task-list .task:hover .tools,
+#task-list .task.selected .tools
+{
+    opacity: 1;
 }
 
 #task-list .task .tools button {
@@ -121,3 +160,4 @@ button {
 #task-list .task .tools button.move-down {
     background-position: -32px 0;
 }
+

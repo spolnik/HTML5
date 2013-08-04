@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/appStorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/magenta.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/red.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" />
@@ -15,9 +17,9 @@
     <file path="/app.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375608780794" ignored="false" />
     <file path="/app.css" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375608993889" ignored="false" />
     <file path="/app.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375614764664" ignored="false" />
-    <file path="/taskAtHand.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639660397" ignored="false" />
-    <file path="/taskAtHand.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375640665061" ignored="false" />
-    <file path="/taskAtHand.css" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375644118181" ignored="false" />
+    <file path="/taskAtHand.html" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375646800906" ignored="false" />
+    <file path="/taskAtHand.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375645338706" ignored="false" />
+    <file path="/taskAtHand.css" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375645403796" ignored="false" />
     <file path="/appStorage.js" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639488894" ignored="false" />
     <file path="/a.dummy" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639893925" ignored="false" />
     <file path="/fragment.js2" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375639995262" ignored="false" />
@@ -43,7 +45,7 @@
       <file leaf-file-name="taskAtHand.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="68" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-18.307692">
+            <state line="18" column="56" selection-start="671" selection-end="671" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
@@ -52,16 +54,7 @@
       <file leaf-file-name="taskAtHand.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appStorage.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/appStorage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="43" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
+            <state line="126" column="34" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +63,7 @@
       <file leaf-file-name="taskAtHand.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="26" selection-start="458" selection-end="462" vertical-scroll-proportion="0.4053076">
+            <state line="58" column="14" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.78431374">
               <folding />
             </state>
           </provider>
@@ -105,7 +98,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="809" />
+    <option name="width" value="1335" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -165,6 +158,24 @@
               <option name="myItemId" value="Start" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskAtHand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -183,6 +194,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacek\Documents\GitHub\HTML5\Start\TaskAtHand\themes" />
       <recent name="C:\Users\Jacek\Documents\GitHub\HTML5\Start\TaskAtHand\images" />
       <recent name="C:\Users\Jacek\Documents\GitHub\HTML5\Start" />
     </key>
@@ -248,14 +260,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="809" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1335" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32207793" sideWeight="0.6182618" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30555555" sideWeight="0.6182618" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3817382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -328,12 +340,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js</url>
-          <line>90</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
@@ -366,35 +372,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/images/icons.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/themes/blue.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/themes/green.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/themes/magenta.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/themes/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/appStorage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="43" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
+        <state line="52" column="43" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.86817104">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/images/icons.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="34" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="68" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-18.307692">
+        <state line="18" column="56" selection-start="671" selection-end="671" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="26" selection-start="458" selection-end="462" vertical-scroll-proportion="0.4053076">
+        <state line="58" column="14" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.78431374">
           <folding />
         </state>
       </provider>

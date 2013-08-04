@@ -1,9 +1,10 @@
 "use strict";
 
 function TaskAtHandApp() {
-    var version = "v2.1",
+    var version = "v2.3",
         appStorage = new AppStorage('taskAtHand'),
-        taskListKey = 'taskList';
+        taskListKey = 'taskList',
+        selectedClass = '.selected';
 
     function saveTaskList() {
         var tasks = [];
@@ -36,10 +37,11 @@ function TaskAtHandApp() {
     function onChangeTaskName($input) {
         $input.hide();
         var $span = $input.siblings('span.task-name');
-        if ($input.val())
+        if ($input.val()) {
             $span.text($input.val());
+            saveTaskList();
+        }
         $span.show();
-        saveTaskList();
     }
 
     function removeTask($task) {
@@ -53,6 +55,13 @@ function TaskAtHandApp() {
         else
             $task.insertAfter($task.next());
         saveTaskList();
+    }
+
+    function onSelectTask($task) {
+        if ($task) {
+            $task.siblings(selectedClass).removeClass(selectedClass);
+            $task.addClass(selectedClass);
+        }
     }
 
     function addTaskElement(taskName) {
@@ -83,6 +92,10 @@ function TaskAtHandApp() {
         .blur(function() {
             $(this).hide().siblings('span.task-name').show();
         });
+
+        $task.click(function() {
+            onSelectTask($task);
+        });
     }
 
     function addTask() {
@@ -95,6 +108,28 @@ function TaskAtHandApp() {
         }
     }
 
+    function onChangeTheme()
+    {
+        var theme = $("#theme>option").filter(":selected").val();
+        setTheme(theme);
+        appStorage.setValue("theme", theme);
+    }
+
+    function setTheme(theme)
+    {
+        $("#theme-style").attr("href", "themes/" + theme + ".css");
+    }
+
+    function loadTheme()
+    {
+        var theme = appStorage.getValue("theme");
+        if (theme)
+        {
+            setTheme(theme);
+            $("#theme>option[value=" + theme + "]").attr("selected","selected");
+        }
+    }
+
     this.start = function() {
         $("#new-task-name").keypress(function (e) {
             if (e.which == 13) // Enter key
@@ -104,7 +139,11 @@ function TaskAtHandApp() {
             }
         }).focus();
 
+        loadTheme();
+        $("#theme").change(onChangeTheme);
+
         $('#app>header').append(' ' + version);
+
         loadTaskList();
         setStatus("ready");
     }
