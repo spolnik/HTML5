@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/magenta.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/themes/red.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" afterPath="$PROJECT_DIR$/../Start/TaskAtHand/taskAtHand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" name="Default" comment="" />
     <ignored path="AppTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1be29979-73cd-4afb-80dc-0fcc3b16b1ea" time="1375607179519" ignored="false" />
@@ -188,6 +179,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -261,7 +253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1335" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

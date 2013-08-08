@@ -139,7 +139,8 @@ button {
     opacity: 1;
 }
 
-#task-list .task .tools button {
+#task-list .task .tools button,
+#task-list .task button.toggle-details {
     margin: 0;
     padding: 0;
     border: none;
@@ -159,5 +160,37 @@ button {
 
 #task-list .task .tools button.move-down {
     background-position: -32px 0;
+}
+
+#task-list .task button.toggle-details
+{
+    background-position: 0 -16px;
+}
+#task-list .task button.toggle-details.expanded
+{
+    background-position: -16px -16px;
+}
+
+#task-list .task .details
+{
+    display: none;
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    padding: 0.25em;
+    overflow: auto;
+}
+#task-list .task .details label
+{
+    width: 8em;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.8em;
+}
+#task-list .task .details select
+{
+    width: 8em;
 }
 
